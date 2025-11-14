@@ -22,18 +22,34 @@
   </a>
 </p>
 
-# CyXSSLab
-Este es la plantilla que utilizo para la creación de mis proyectos/herramientas de ciberseguridad
+# Laboratorio XSS Educativo (20 Casos)
+Aprende y practica Cross-Site Scripting (XSS) de forma totalmente segura y aislada.
+Este laboratorio incluye 20 escenarios reales y simulados, cada uno con:
 
-Esplicación que hace la herramienta.
+- Explicación en lenguaje sencillo
+- Explicación técnica
+- Ejemplo real de uso
+- Payload sugerido
+- Ejecución sandboxed (segura)
+- Área para editar y probar tus propios payloads
 
-- GitHub Pages si la herramienta tiene: https://cyberiuscompany.github.io/NOMBRE-HERRAMIENTA
-- DeepWiki de la herramienta: https://deepwiki.com/RELLENAR+INDEXAR
+Diseñado para formación, estudiantes, pentesters, instructores y equipos de seguridad.
 ---
 
+<h2 align="center">Panel Principal</h2>
 <p align="center">
-  <img src="icono.png" alt="Banner" width="500"/>
-</p
+  <img src="Portada1.png" alt="Foto 1" width="500"/>
+</p>
+
+<h2 align="center">Apartado de Ejercicios</h2>
+<p align="center">
+  <img src="Portada2.png" alt="Foto 2" width="500"/>
+</p>
+
+<h2 align="center">Resolviendo un caso de XSS</h2>
+<p align="center">
+  <img src="Portada3.png" alt="Foto 3" width="500"/>
+</p>
 
 ---
 
@@ -45,31 +61,7 @@ Esplicación que hace la herramienta.
 
 ---
 
-## Fotos de Herramienta
-
-<h2 align="center">Foto 1</h2>
-<p align="center">
-  <img src="Foto1" alt="Foto 1" width="500"/>
-</p>
-
-<h2 align="center">Foto 2</h2>
-<p align="center">
-  <img src="Foto2" alt="Foto 2" width="500"/>
-</p>
-
-<h2 align="center">Foto 3</h2>
-<p align="center">
-  <img src="Foto3" alt="Foto 3" width="500"/>
-</p>
-
-
-## Descripción
-
-**NOMBRE-HERRAMIENTA** es una herramienta.....RELLENAR. 
-
-Diseñada con un enfoque de ciberseguridad para......RELLENAR.
-
-## 🚀 Funcionalidades principales
+## 📚 ¿Qué incluye este laboratorio?
 
 - RELLENAR.
 - RELLENAR.
@@ -77,16 +69,20 @@ Diseñada con un enfoque de ciberseguridad para......RELLENAR.
 
 ## 🧰 Tecnologías utilizadas
 
-- RELLENAR.
-- RELLENAR.
-- RELLENAR.
+- HTML5 + CSS3
+- JavaScript vanilla (sin frameworks)
+- FontAwesome
+- Entorno aislado / DOM sandbox
 
 ## 📁 Estructura del proyecto
 
 ```bash
-├── fichero.py # Función Principal
-├── fichero.js # Función Principal
-├── fichero.html # Función Principal
+├── index.html # Index principal de la portada
+├── index-lab-xxs.html # Index principal del laboratorio
+├── app.js # Funciones javascript del proyecto generales
+├── README.md # Función Principal styles.css
+├── styles.css # css principal del index.html
+├── styles-lab-xxs.css # css principal del index-lab-xxs.html
 ```
 ---
 
@@ -113,26 +109,11 @@ pip install -r requirements.txt
 python NOMBRE-HERRAMIENTA
 ```
 
-## ⚙️ 1.2 Instalación básica con clonado 🐧 Linux / macOS
+## ⚙️ 1.0 Acceso al proyecto vía Github Pages
 
 ```bash
-git clone..........
-cd NOMBRE-HERRAMIENTA
-python3 -m venv venv (No es obligatorio este comando)
-source venv/bin/activate (No es obligatorio este comando)
-pip install -r requirements.txt
-python3 NOMBRE-HERRAMIENTA
+Entrar a: https://cyberiuscompany.github.io/CyXSSLab/
 ```
 
-## ⚙️ 2 Instalación como si fuese paquete profesional
-
-```bash
-git clone..........
-cd NOMBRE-HERRAMIENTA
-python3 -m venv venv (No es obligatorio este comando)
-source venv/bin/activate (No es obligatorio este comando)
-pip install -r requirements.txt
-pip install .
-NOMBRE-HERRAMIENTA
 ```
 
