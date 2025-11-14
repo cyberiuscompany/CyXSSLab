@@ -22,6 +22,10 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="icono.png" alt="Foto 1" width="500"/>
+</p>
+
 # Laboratorio XSS Educativo 
 Aprende y practica Cross-Site Scripting (XSS) de forma totalmente segura y aislada.
 Este laboratorio incluye 20 escenarios reales y simulados, cada uno con:
