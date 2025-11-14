@@ -38,17 +38,17 @@ Diseñado para formación, estudiantes, pentesters, instructores y equipos de se
 
 <h2 align="center">Panel Principal</h2>
 <p align="center">
-  <img src="Portada1.png" alt="Foto 1" width="500"/>
+  <img src="Portada1.png" alt="Foto 1" width="900"/>
 </p>
 
 <h2 align="center">Apartado de Ejercicios</h2>
 <p align="center">
-  <img src="Portada2.png" alt="Foto 2" width="500"/>
+  <img src="Portada2.png" alt="Foto 2" width="900"/>
 </p>
 
 <h2 align="center">Resolviendo un caso de XSS</h2>
 <p align="center">
-  <img src="Portada3.png" alt="Foto 3" width="500"/>
+  <img src="Portada3.png" alt="Foto 3" width="900"/>
 </p>
 
 ---
