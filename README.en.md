@@ -10,7 +10,7 @@
 
 
 <p align="center">
-  <a href="https://github.com/cyberiuscompany/plantilla">
+  <a href="https://github.com/cyberiuscompany/CyXSSLab">
     <img src="https://flagcdn.com/w40/es.png" alt="Español" title="Español">
     <strong>Español</strong>
   </a>
@@ -24,18 +24,34 @@
   </a>
 </p>
 
-# Template
-This is the template I use for building my cybersecurity tools/projects.
+# XSS Educational Lab
 
-Explanation of what the tool does.
+Learn and practice Cross-Site Scripting (XSS) in a fully safe and
+isolated environment. This lab includes 20 real and simulated scenarios,
+each with:
 
-- GitHub Pages if available: https://cyberiuscompany.github.io/TOOL-NAME
-- DeepWiki for the tool: https://deepwiki.com/FILL+INDEX
+-   🟢 Simple explanation
+-   🔵 Technical explanation
+-   🟣 Real-world example
+-   🟠 Suggested payload
+-   🟩 Sandboxed (safe) execution
+-   🟦 Area to edit and test your own payloads
 
----
+## Designed for training, students, pentesters, instructors, and security teams.
 
+<h2 align="center">Main Panel</h2>
 <p align="center">
-  <img src="icono.png" alt="Banner" width="500"/>
+  <img src="Portada1.png" alt="Foto 1" width="900"/>
+</p>
+
+<h2 align="center">Exercises Section</h2>
+<p align="center">
+  <img src="Portada2.png" alt="Foto 2" width="900"/>
+</p>
+
+<h2 align="center">Solving an XSS Case</h2>
+<p align="center">
+  <img src="Portada3.png" alt="Foto 3" width="900"/>
 </p>
 
 ---
@@ -43,96 +59,65 @@ Explanation of what the tool does.
 ## 🎥 Demo
 
 <p align="center">
-  <img src="docs/Demo.gif" width="1200" alt="CyberiusUnzipCracker Demo">
+  <img src="docs/Demo.gif" width="1200" alt="Demostración de CyberiusUnzipCracker">
 </p>
 
 ---
 
-## Tool Screenshots
+------------------------------------------------------------------------
 
-<h2 align="center">Screenshot 1</h2>
-<p align="center">
-  <img src="Foto1" alt="Screenshot 1" width="500"/>
-</p>
+## 📚 What labs are included?
 
-<h2 align="center">Screenshot 2</h2>
-<p align="center">
-  <img src="Foto2" alt="Screenshot 2" width="500"/>
-</p>
-
-<h2 align="center">Screenshot 3</h2>
-<p align="center">
-  <img src="Foto3" alt="Screenshot 3" width="500"/>
-</p>
-
-## Description
-
-**TOOL-NAME** is a tool.....TO FILL.
-
-Designed with a cybersecurity focus to......TO FILL.
-
-## 🚀 Main Features
-
-- TO FILL.
-- TO FILL.
-- TO FILL.
+1.  🟦 innerHTML --- Direct insertion of unfiltered HTML
+2.  🟥 location.hash --- Reflection of URL hash without validation
+3.  🟧 document.write --- Injection during page load
+4.  🟪 eval() --- Execution of user‑controlled JavaScript
+5.  🟨 img onerror --- Execution through image events
+6.  🟩 iframe.srcdoc --- Injected HTML inside iframes
+7.  🔵 insertAdjacentHTML --- HTML insertion in the DOM
+8.  🔴 onclick attribute --- Injection in event attributes
+9.  🟠 query param (?q=) --- Direct reflection of URL parameters
+10. 🟣 script tag innerHTML --- Unsafe creation script tag
+11. 🟩 Stored XSS (simulation) --- Persistent stored payload
+12. 🟦 SVG with events --- XSS through vector images
+13. 🟥 javascript: href --- Links executing code
+14. 🟧 data: URI images --- Payloads embedded in data-URIs
+15. 🟪 template.innerHTML --- Unsafe HTML templating
+16. 🟨 JSONP / callback injection --- Execution via callback functions
+17. 🔵 postMessage reflection (DOM XSS) --- Reflection of window messages
+18. 🔴 CSS injection (style=) --- Injection inside style attributes
+19. 🟠 DOM Mutation Insertion --- Insertion when DOM mutates
+20. 🟣 CSP bypass (unsafe-inline) --- Bypass via lax CSP policies
 
 ## 🧰 Technologies Used
 
-- TO FILL.
-- TO FILL.
-- TO FILL.
+-   HTML5 + CSS3
+-   Vanilla JavaScript (no frameworks)
+-   FontAwesome
+-   Isolated environment / DOM sandbox
 
 ## 📁 Project Structure
 
-```bash
-├── file.py # Main Function
-├── file.js # Main Function
-├── file.html # Main Function
-```
----
+    ├── index.html # Main index page
+    ├── index-lab-xxs.html # Lab index page
+    ├── app.js # Main JS functions
+    ├── styles.css # Main CSS for index.html
+    ├── styles-lab-xxs.css # Main CSS for index-lab-xxs.html
+
+------------------------------------------------------------------------
 
 ## 📄 Additional Documentation
 
-- [🤝 Code of Conduct](.github/CODE_OF_CONDUCT.md)
-- [📬 How to Contribute](.github/CONTRIBUTING.md)
-- [🔐 Security](.github/SECURITY.md)
-- [⚠️ Legal Notice](DISCLAIMER.md)
-- [📜 License](LICENSE)
-- [📢 Support](.github/SUPPORT.md)
+-   [🤝 Code of Conduct](.github/CODE_OF_CONDUCT.md)
+-   [📬 How to contribute](.github/CONTRIBUTING.md)
+-   [🔐 Security](.github/SECURITY.md)
+-   [⚠️ Legal notice](DISCLAIMER.md)
+-   [📜 License](LICENSE)
+-   [📢 Support](.github/SUPPORT.md)
 
----
+------------------------------------------------------------------------
 
-## ⚙️ 1.1 Basic Installation via Clone on 🪟 Windows
+## ⚙️ 1.0 Access via GitHub Pages
 
-```bash
-git clone..........
-cd TOOL-NAME
-python -m venv venv (Optional)
-.env\Scriptsctivate (Optional)
-pip install -r requirements.txt
-python TOOL-NAME
-```
+    https://cyberiuscompany.github.io/CyXSSLab/
 
-## ⚙️ 1.2 Basic Installation via Clone on 🐧 Linux / macOS
-
-```bash
-git clone..........
-cd TOOL-NAME
-python3 -m venv venv (Optional)
-source venv/bin/activate (Optional)
-pip install -r requirements.txt
-python3 TOOL-NAME
-```
-
-## ⚙️ 2 Installation as if it were a professional package
-
-```bash
-git clone..........
-cd TOOL-NAME
-python3 -m venv venv (Optional)
-source venv/bin/activate (Optional)
-pip install -r requirements.txt
-pip install .
-TOOL-NAME
-```
