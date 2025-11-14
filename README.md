@@ -22,16 +22,16 @@
   </a>
 </p>
 
-# Laboratorio XSS Educativo (20 Casos)
+# Laboratorio XSS Educativo 
 Aprende y practica Cross-Site Scripting (XSS) de forma totalmente segura y aislada.
 Este laboratorio incluye 20 escenarios reales y simulados, cada uno con:
 
-- Explicación en lenguaje sencillo
-- Explicación técnica
-- Ejemplo real de uso
-- Payload sugerido
-- Ejecución sandboxed (segura)
-- Área para editar y probar tus propios payloads
+- 🟢 Explicación en lenguaje sencillo
+- 🔵 Explicación técnica
+- 🟣 Ejemplo real de uso
+- 🟠 Payload sugerido
+- 🟩 Ejecución sandboxed (segura)
+- 🟦 Área para editar y probar tus propios payloads
 
 Diseñado para formación, estudiantes, pentesters, instructores y equipos de seguridad.
 ---
