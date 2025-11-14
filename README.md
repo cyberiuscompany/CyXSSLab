@@ -56,7 +56,7 @@ Diseñado para formación, estudiantes, pentesters, instructores y equipos de se
 ## 🎥 Demostración
 
 <p align="center">
-  <img src="docs/Demo.gif" width="1200" alt="Demostración de CyberiusUnzipCracker">
+  <img src="demo.gif" width="1200" alt="Demostración de CyberiusUnzipCracker">
 </p>
 
 ---
