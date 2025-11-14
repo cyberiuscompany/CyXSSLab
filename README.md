@@ -98,17 +98,6 @@ Diseñado para formación, estudiantes, pentesters, instructores y equipos de se
 
 ---
 
-## ⚙️ 1.1 Instalación básica con clonado 🪟 Windows
-
-```bash
-git clone..........
-cd NOMBRE-HERRAMIENTA
-python -m venv venv (No es obligatorio este comando)
-.\venv\Scripts\activate (No es obligatorio este comando)
-pip install -r requirements.txt
-python NOMBRE-HERRAMIENTA
-```
-
 ## ⚙️ 1.0 Acceso al proyecto vía Github Pages
 
 ```bash
