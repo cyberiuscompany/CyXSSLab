@@ -61,11 +61,28 @@ Diseñado para formación, estudiantes, pentesters, instructores y equipos de se
 
 ---
 
-## 📚 ¿Qué incluye este laboratorio?
+## 📚 ¿Qué laboratorios incluye este laboratorio?
 
-- RELLENAR.
-- RELLENAR.
-- RELLENAR.
+1. 🟦 innerHTML  
+2. 🟥 location.hash  
+3. 🟧 document.write  
+4. 🟪 eval()  
+5. 🟨 img onerror  
+6. 🟩 iframe.srcdoc  
+7. 🔵 insertAdjacentHTML  
+8. 🔴 onclick attribute  
+9. 🟠 query param (?q=)  
+10. 🟣 script tag innerHTML  
+11. 🟩 Stored XSS (simulación)  
+12. 🟦 SVG con eventos (onload/onfocus)  
+13. 🟥 javascript: href  
+14. 🟧 data: URI en imágenes  
+15. 🟪 template.innerHTML  
+16. 🟨 JSONP / callback injection  
+17. 🔵 postMessage reflection (DOM XSS)  
+18. 🔴 CSS injection (style=)  
+19. 🟠 DOM Mutation Insertion  
+20. 🟣 CSP bypass (unsafe-inline)
 
 ## 🧰 Tecnologías utilizadas
 
