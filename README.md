@@ -97,7 +97,6 @@ Diseñado para formación, estudiantes, pentesters, instructores y equipos de se
 ├── index.html # Index principal de la portada
 ├── index-lab-xxs.html # Index principal del laboratorio
 ├── app.js # Funciones javascript del proyecto generales
-├── README.md # Función Principal styles.css
 ├── styles.css # css principal del index.html
 ├── styles-lab-xxs.css # css principal del index-lab-xxs.html
 ```
