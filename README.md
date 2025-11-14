@@ -63,26 +63,26 @@ Diseñado para formación, estudiantes, pentesters, instructores y equipos de se
 
 ## 📚 ¿Qué laboratorios incluye este laboratorio?
 
-1. 🟦 innerHTML  
-2. 🟥 location.hash  
-3. 🟧 document.write  
-4. 🟪 eval()  
-5. 🟨 img onerror  
-6. 🟩 iframe.srcdoc  
-7. 🔵 insertAdjacentHTML  
-8. 🔴 onclick attribute  
-9. 🟠 query param (?q=)  
-10. 🟣 script tag innerHTML  
-11. 🟩 Stored XSS (simulación)  
-12. 🟦 SVG con eventos (onload/onfocus)  
-13. 🟥 javascript: href  
-14. 🟧 data: URI en imágenes  
-15. 🟪 template.innerHTML  
-16. 🟨 JSONP / callback injection  
-17. 🔵 postMessage reflection (DOM XSS)  
-18. 🔴 CSS injection (style=)  
-19. 🟠 DOM Mutation Insertion  
-20. 🟣 CSP bypass (unsafe-inline)
+1. 🟦 innerHTML — Inserción directa de HTML sin filtrar  
+2. 🟥 location.hash — Reflejo del hash de la URL sin validar  
+3. 🟧 document.write — Inyección en tiempo de carga  
+4. 🟪 eval() — Ejecución de JavaScript controlado por el usuario  
+5. 🟨 img onerror — Ejecución mediante eventos de imagen  
+6. 🟩 iframe.srcdoc — HTML inyectado dentro de iframes  
+7. 🔵 insertAdjacentHTML — Inserción de HTML en el DOM  
+8. 🔴 onclick attribute — Inyección en atributos de eventos  
+9. 🟠 query param (?q=) — Reflejo directo de parámetros en la página  
+10. 🟣 script tag innerHTML — Creación insegura de etiquetas <script>  
+11. 🟩 Stored XSS (simulación) — Payload persistente almacenado  
+12. 🟦 SVG con eventos — XSS mediante imágenes vectoriales  
+13. 🟥 javascript: href — Enlaces que ejecutan código  
+14. 🟧 data: URI en imágenes — Payloads embebidos en data-URIs  
+15. 🟪 template.innerHTML — Uso inseguro de plantillas HTML  
+16. 🟨 JSONP / callback injection — Ejecución vía funciones callback  
+17. 🔵 postMessage reflection (DOM XSS) — Reflejo de mensajes entre ventanas  
+18. 🔴 CSS injection (style=) — Inyección dentro de estilos  
+19. 🟠 DOM Mutation Insertion — Inserción cuando el DOM muta  
+20. 🟣 CSP bypass (unsafe-inline) — Bypass por políticas laxas de CSP
 
 ## 🧰 Tecnologías utilizadas
 
