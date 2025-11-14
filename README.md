@@ -112,8 +112,6 @@ python NOMBRE-HERRAMIENTA
 ## ⚙️ 1.0 Acceso al proyecto vía Github Pages
 
 ```bash
-Entrar a: https://cyberiuscompany.github.io/CyXSSLab/
-```
-
+https://cyberiuscompany.github.io/CyXSSLab/
 ```
 
