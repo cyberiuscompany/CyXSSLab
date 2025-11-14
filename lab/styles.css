@@ -1,0 +1,65 @@
+:root{
+  --p:#2d3037; /* Principal */
+  --s:#939194; /* Secundario */
+  --t:#4f5354; /* Terciario */
+  --a:#83f1e8; /* Azul énfasis */
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,Arial;background:var(--p);color:#fff}
+.wrap{display:grid;grid-template-columns:220px 1fr 1fr;gap:16px;padding:16px;height:100vh;}
+.left{background:linear-gradient(180deg,var(--t),#36383b);padding:12px;border-radius:8px;overflow:auto}
+.box{display:block;width:100%;text-align:left;padding:10px;margin:8px 0;border-radius:6px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:#fff;cursor:pointer}
+.box.active{border-color:var(--a);box-shadow:0 0 0 4px rgba(131,241,232,0.06)}
+.center{background:#111;padding:12px;border-radius:8px}
+label{display:block;font-size:13px;color:var(--s);margin-bottom:6px}
+textarea{width:100%;height:28vh;background:#0d0e10;border:1px solid #222;color:#fff;padding:10px;border-radius:6px;resize:vertical}
+.btn{margin-top:8px;padding:8px 12px;border-radius:6px;border:none;background:var(--a);color:#072227;cursor:pointer}
+.right{background:linear-gradient(180deg,#0f1112,var(--t));padding:12px;border-radius:8px}
+.pane{background:#070708;border-radius:6px;padding:12px;min-height:10vh;border:1px solid rgba(255,255,255,0.04);margin-bottom:10px;overflow:auto}
+.hint{font-size:12px;color:var(--s);margin-top:8px}
+.row{display:flex;gap:8px;align-items:center}
+.small{font-size:12px;color:var(--s)}
+.info-box{background:#0b0c0d;border:1px solid rgba(255,255,255,0.03);padding:10px;border-radius:6px}
+.info-box h4{margin:0 0 6px;color:var(--a)}
+.info-box pre{white-space:pre-wrap;padding:8px;border-radius:4px;color:#fff;background:rgba(255,255,255,0.02)}
+.info-rem p{margin:6px 0 0;color:var(--s);font-size:13px}
+footer {
+  background-color: #2d3037;
+  padding: 1.5rem 0;
+  border-top: 2px solid #4f5354;
+  margin-top: 2rem;
+}
+
+.footer-socials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.social-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.social-item a {
+  padding: 0.4rem 0.8rem;
+  background-color: #4f5354;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.social-item a:hover {
+  background-color: #83f1e8;
+  color: #2d3037;
+}
+
+.footer-copy {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #939194;
+}

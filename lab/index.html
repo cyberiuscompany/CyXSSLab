@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>XSS Lab — 20 Casos (Educativo)</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/a2e0ad6b1a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="wrap" id="app">
+    <!-- Panel izquierdo: 20 casos -->
+    <aside class="left" id="sinks">
+      <h3>Sinks / Casos (elige)</h3>
+      <button class="box" data-id="1">1 — innerHTML</button>
+      <button class="box" data-id="2">2 — location.hash</button>
+      <button class="box" data-id="3">3 — document.write</button>
+      <button class="box" data-id="4">4 — eval()</button>
+      <button class="box" data-id="5">5 — img onerror</button>
+      <button class="box" data-id="6">6 — iframe.srcdoc</button>
+      <button class="box" data-id="7">7 — insertAdjacentHTML</button>
+      <button class="box" data-id="8">8 — onclick attribute</button>
+      <button class="box" data-id="9">9 — query param (?q=)</button>
+      <button class="box" data-id="10">10 — script tag innerHTML</button>
+
+      <button class="box" data-id="11">11 — Stored XSS (simulado)</button>
+      <button class="box" data-id="12">12 — SVG (onload/onfocus)</button>
+      <button class="box" data-id="13">13 — javascript: href</button>
+      <button class="box" data-id="14">14 — data: URI (img)</button>
+      <button class="box" data-id="15">15 — template.innerHTML (templating)</button>
+      <button class="box" data-id="16">16 — JSONP / callback script</button>
+      <button class="box" data-id="17">17 — postMessage reflection (DOM)</button>
+      <button class="box" data-id="18">18 — CSS injection (style=)</button>
+      <button class="box" data-id="19">19 — Mutation-based insertion</button>
+      <button class="box" data-id="20">20 — CSP bypass demo (unsafe-inline)</button>
+
+      <div class="hint">Pulsa un caso para ver la explicación y payload.</div>
+    </aside>
+
+    <!-- Panel central -->
+    <main class="center">
+      <label for="payload">Payload (editar o pegar)</label>
+      <textarea id="payload">&lt;script&gt;alert('xss')&lt;/script&gt;</textarea>
+
+      <div class="row">
+        <button class="btn" id="fill">Pegar ejemplo</button>
+        <button class="btn" id="run">Ejecutar</button>
+        <button class="btn" id="reset">Limpiar</button>
+        <div class="small" id="sel">Caso: 1</div>
+      </div>
+
+      <div class="hint small">Salida segura mostrada abajo. No pruebes contra sitios reales.</div>
+
+      <div class="safe">
+        <strong>Salida segura (texto plano):</strong>
+        <pre id="safe"></pre>
+      </div>
+    </main>
+
+    <!-- Panel derecho -->
+    <section class="right">
+      <div class="info-box">
+        <h4 id="info-title">Explicación del caso</h4>
+
+        <p id="info-simple"><strong>En lenguaje llano:</strong> Selecciona un caso para ver la explicación simple.</p>
+        <p id="info-tech"><strong>Técnico:</strong> Aquí va la descripción técnica del fallo.</p>
+
+        <div class="info-ex">
+          <strong>Ejemplo real donde podrías verlo:</strong>
+          <pre id="info-context">Página que refleja datos de la URL (ej: resultados de búsqueda)</pre>
+        </div>
+
+        <div class="info-payload">
+          <strong>Payload ejemplo:</strong>
+          <pre id="info-ex">&lt;img src=x onerror=alert('XSS')&gt;</pre>
+        </div>
+
+        <div class="info-rem">
+          <strong>Mitigación (resumen):</strong>
+          <p id="info-rem">Validar/escapar y usar CSP; evitar inserciones con innerHTML.</p>
+        </div>
+      </div>
+
+      <h3>Resultado</h3>
+      <div class="pane" id="result">Aquí aparecerá la ejecución / simulación</div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-socials">
+      <div class="social-item"><i class="fab fa-github"></i><a href="https://github.com/cyberiuscompany" target="_blank">GitHub</a></div>
+      <div class="social-item"><i class="fab fa-youtube" style="color:red;"></i><a href="https://www.youtube.com/@CyberiusCompany" target="_blank" style="background-color:red;">YouTube</a></div>
+      <div class="social-item"><i class="fab fa-paypal" style="color:#0070ba;"></i><a href="https://paypal.me/CyberiusCompany" target="_blank" style="background-color:#0070ba;">PayPal</a></div>
+      <div class="social-item"><i class="fab fa-discord" style="color:#5865F2;"></i><a href="https://disboard.org/server/1299310806617292922" target="_blank" style="background-color:#5865F2;">Discord</a></div>
+    </div>
+    <div class="footer-copy">&copy; 2025 Cyberius Company. Todos los derechos reservados.</div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
