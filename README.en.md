@@ -24,6 +24,10 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="icono.png" alt="Foto 1" width="500"/>
+</p>
+
 # XSS Educational Lab
 
 Learn and practice Cross-Site Scripting (XSS) in a fully safe and
